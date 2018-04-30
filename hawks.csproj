@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <Version>1.0.2</Version>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <!-- <RunTimeFrameworkVersion>2.1.300-preview2-008533</RunTimeFrameworkVersion> -->
+    <PackAsTool>true</PackAsTool>
+    
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="asciifiles\banner12.txt" ><CopyToOutputDirectory>Always</CopyToOutputDirectory></Content>
+    <Content Include="asciifiles\bannerfront.txt" ><CopyToOutputDirectory>Always</CopyToOutputDirectory></Content>
+    <Content Include="asciifiles\bannerside.txt" ><CopyToOutputDirectory>Always</CopyToOutputDirectory></Content>
+  </ItemGroup>
+</Project>
