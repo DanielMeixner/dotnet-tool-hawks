@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <TargetFramework>netcoreapp2.1</TargetFramework>
     <!-- <RunTimeFrameworkVersion>2.1.300-preview2-008533</RunTimeFrameworkVersion> -->
     <PackAsTool>true</PackAsTool>

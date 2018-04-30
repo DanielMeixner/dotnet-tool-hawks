@@ -6,8 +6,7 @@ namespace hawks{
             public void PrintRandomFile()
             {
                 var curAss = this.GetType().Assembly.Location;
-                var curDir = System.IO.Directory.GetParent(curAss);
-                Console.WriteLine(curDir);
+                var curDir = System.IO.Directory.GetParent(curAss);               
 
                 var asciiDir = curDir + "/asciifiles";
                 var files = System.IO.Directory.GetFiles(asciiDir);
